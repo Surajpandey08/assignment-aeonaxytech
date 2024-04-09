@@ -2,9 +2,9 @@ import React from 'react'
 
 export const SecondSection = () => {
   return (
-    <section className='my-40 '>
+    <section className='mt-60 md:my-40 '>
       <div className='flex md:justify-around md:flex-row flex-col justify-center items-center'>
-        <div className='w-96'>
+        <div className='md:w-96 w-80'>
           <header className='text-md font-semibold text-sky-600 border-b-2'>Small-to-medium Buisness</header>
           <div className='flex justify-between'>
             <div className='pt-10 font-medium text-xs'>
@@ -20,7 +20,7 @@ export const SecondSection = () => {
                </div>
           </div>
         </div>
-        <div className='w-96'>
+        <div className='md:w-96 w-80'>
           <header className='text-md font-semibold text-sky-600 border-b-2'>Enterprise</header>
           <div className='flex justify-between'>
             <div className='pt-10 font-medium text-xs'>
@@ -37,7 +37,7 @@ export const SecondSection = () => {
           </div>
           
         </div>
-        <div className='w-96 md:w-24 h-[210px]'>
+        <div className=' w-80 md:w-24 h-[210px]'>
           <header className='text-md font-semibold text-sky-600 border-b-2'>More</header>
           <div className='flex justify-between'>
             <div className='pt-10 font-medium text-xs'>

@@ -21,8 +21,8 @@ export const Header = () => {
 
         <div className='flex gap-4 justify-between align-middle'>
         
-        <button type="button" class="  text-sm py-1 px-9 h-10  font-normal md:font-medium text-indigo-950 focus:outline-none bg-transparent rounded-full border-2 border-indigo-950 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 ">Log In</button>
-        <button type="button" class="  md:text-sm py-1 px-9 h-10 font-normal  md:font-medium  text-white focus:outline-none bg-indigo-950 rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 ">Sign Up</button>
+        <button type="button" class="  text-xs py-1 px-4 h-10  font-normal sm:py-1 sm:px-9 sm:font-medium text-indigo-950 focus:outline-none bg-transparent rounded-full border-2 border-indigo-950 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 ">Log In</button>
+        <button type="button" class="  text-xs py-1 px-4 sm:text-sm sm:py-1 sm:px-9 h-10 font-normal  sm:font-medium  text-white focus:outline-none bg-indigo-950 rounded-full border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 ">Sign Up</button>
         <button className='text-indigo-950 text-4xl md:hidden '><FaBars /></button>
         </div>
 

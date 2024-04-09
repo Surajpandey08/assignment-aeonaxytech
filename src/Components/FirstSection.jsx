@@ -16,7 +16,7 @@ export const FirstSection = () => {
 </div>
 
 <div className="parent inline-block relative w-3/4 top-20"> 
-<form className='child border-2  bg-white font-poppins rounded-lg p-8 z-20 absolute top-0 mt-[-180px] left-12 m-4/5 w-full md:w-2/5 md:mt-[-300px] md:left-3/4'>
+<form className='child border-2  bg-white font-poppins rounded-lg p-8 z-20 absolute top-0 mt-[-100px] left-12 m-4/5 w-full md:w-2/5 md:mt-[-300px] md:left-3/4'>
   <div>
     <h1 className='text-3xl font-medium py-2 text-primary'>Get started</h1>
     <p className='font-normal text-primary'>Tell us a little about your business so we can connect you with the right people.</p>
